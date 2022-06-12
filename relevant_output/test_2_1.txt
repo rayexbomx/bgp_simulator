@@ -1,0 +1,76 @@
+
+--------------------------DUMP ALL RELEVANT ROUTER INFORMATION----------------------
+ 
+ROUTER 10: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 20: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 21: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 30.1: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 30.2: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 30.3: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 31: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 40: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 50.1: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 50.2: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 60: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 70: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+--------------------------END OF ALL RELEVANT ROUTER INFORMATION----------------------
+

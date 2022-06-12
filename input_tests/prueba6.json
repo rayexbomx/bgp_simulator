@@ -1,0 +1,279 @@
+[
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"10"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"20"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"30.1"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"30.2"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"30.3"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"40"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"31"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"50.1"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"50.2"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"60"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"70"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"21"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "21",
+            "router_2": "30.2",
+            "relationship": "c2p"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "10",
+            "router_2": "20",
+            "relationship": "c2p"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "20",
+            "router_2": "30.1",
+            "relationship": "c2p"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "30.1",
+            "router_2": "30.2",
+            "relationship": "ibgp"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "30.1",
+            "router_2": "30.3",
+            "relationship": "ibgp"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "30.2",
+            "router_2": "30.3",
+            "relationship": "ibgp"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "30.1",
+            "router_2": "31",
+            "relationship": "p2p"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "30.3",
+            "router_2": "40",
+            "relationship": "c2p"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "30.3",
+            "router_2": "50.1",
+            "relationship": "p2p"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "50.1",
+            "router_2": "50.2",
+            "relationship": "ibgp"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "50.2",
+            "router_2": "70",
+            "relationship": "c2p"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "50.1",
+            "router_2": "60",
+            "relationship": "p2c"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "50.2",
+            "router_2": "60",
+            "relationship": "p2c"
+        }
+    },
+    {
+        "time": 3,
+        "action": "GA",
+        "args":
+        {
+            "ap": "31",
+            "generator": "31",
+            "local_pref": 0,
+            "P": "A"
+        }
+    },
+    {
+        "time": 3,
+        "action": "GA",
+        "args":
+        {
+            "ap": "40",
+            "generator": "40",
+            "local_pref": 0, 
+            "P": "A"
+        }
+    },
+    {
+        "time": 3,
+        "action": "GA",
+        "args":
+        {
+            "ap": "10",
+            "generator": "10",
+            "local_pref": 0, 
+            "P": "A"
+        }
+    },
+    {
+        "time": 50,
+        "action": "RA",
+        "args":
+        {
+            "router": "10",
+            "P": "A"
+        }
+    },
+    {
+        "time": 50,
+        "action": "RA",
+        "args":
+        {
+            "router": "31",
+            "P": "A"
+        }
+    }
+]

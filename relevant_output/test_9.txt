@@ -1,0 +1,128 @@
+
+--------------------------DUMP ALL RELEVANT ROUTER INFORMATION----------------------
+ 
+ROUTER 10: 
+{
+    "RIB ->": {
+        "A": "SELF ANNOUNCED"
+    },
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 20: 
+{
+    "RIB ->": {
+        "A": [
+            "10"
+        ]
+    },
+    "RIB_IN ->": {
+        "10": [
+            "A",
+            [
+                "10"
+            ]
+        ]
+    }
+}
+ 
+ROUTER 21: 
+{
+    "RIB ->": {
+        "A": [
+            "30",
+            "40"
+        ]
+    },
+    "RIB_IN ->": {
+        "30.2": [
+            "A",
+            [
+                "30",
+                "40"
+            ]
+        ]
+    }
+}
+ 
+ROUTER 30.1: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 30.2: 
+{
+    "RIB ->": {
+        "A": [
+            "40"
+        ]
+    },
+    "RIB_IN ->": {
+        "30.3": [
+            "A",
+            [
+                "40"
+            ]
+        ]
+    }
+}
+ 
+ROUTER 30.3: 
+{
+    "RIB ->": {
+        "A": [
+            "40"
+        ]
+    },
+    "RIB_IN ->": {
+        "40": [
+            "A",
+            [
+                "40"
+            ]
+        ]
+    }
+}
+ 
+ROUTER 31: 
+{
+    "RIB ->": {
+        "A": "SELF ANNOUNCED"
+    },
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 40: 
+{
+    "RIB ->": {
+        "A": "SELF ANNOUNCED"
+    },
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 50.1: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 50.2: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 60: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+ 
+ROUTER 70: 
+{
+    "RIB ->": {},
+    "RIB_IN ->": {}
+}
+--------------------------END OF ALL RELEVANT ROUTER INFORMATION----------------------
+

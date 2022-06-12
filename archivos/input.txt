@@ -1,0 +1,131 @@
+[
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"1"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"2.1"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"3"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"4"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"2.2"
+        }
+    },
+    {
+        "time": 1,
+        "action": "RU",
+        "args":
+        {
+            "router_id":"5"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "1",
+            "router_2": "2.1",
+            "relationship": "p2c"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "2.1",
+            "router_2": "2.2",
+            "relationship": "ibgp"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "2.1",
+            "router_2": "4",
+            "relationship": "p2c"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "2.1",
+            "router_2": "3",
+            "relationship": "p2p"
+        }
+    },
+    {
+        "time": 2,
+        "action": "LU",
+        "args":
+        {
+            "router_1": "2.2",
+            "router_2": "5",
+            "relationship": "c2p"
+        }
+    },
+    {
+        "time": 3,
+        "action": "GA",
+        "args":
+        {
+            "ap": "1",
+            "generator": "1",
+            "local_pref": "", 
+            "P": "A"
+        }
+    },
+    {
+        "time": 3,
+        "action": "GA",
+        "args":
+        {
+            "ap": "4",
+            "generator": "4",
+            "local_pref": "", 
+            "P": "A"
+        }
+    },
+    {
+        "time": 50,
+        "action": "RA",
+        "args":
+        {
+            "router": "1",
+            "P": "A"
+        }
+    }
+]

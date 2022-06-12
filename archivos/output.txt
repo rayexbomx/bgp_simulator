@@ -1,0 +1,3122 @@
+{
+    "time": 0,
+    "action": "PQ",
+    "args": {}
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "10"
+    }
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "30.1"
+    }
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "31"
+    }
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "40"
+    }
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "21"
+    }
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "20"
+    }
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "30.3"
+    }
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "70"
+    }
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "60"
+    }
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "30.2"
+    }
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "50.2"
+    }
+}
+{
+    "time": 1,
+    "action": "RU",
+    "args": {
+        "router_id": "50.1"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "20",
+        "router_2": "30.1",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "10",
+        "router_2": "20",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "30.3",
+        "router_2": "40",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "50.1",
+        "router_2": "60",
+        "relationship": "p2c"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "30.1"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "20"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "40"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "60"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "50.1"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "30.3"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "10"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "20"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "30.1",
+        "router_2": "30.2",
+        "relationship": "ibgp"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "21",
+        "router_2": "30.2",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "50.2",
+        "router_2": "60",
+        "relationship": "p2c"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "30.2"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "21"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "30.2"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "50.2"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "60"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "30.1"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "50.2",
+        "router_2": "70",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "50.1",
+        "router_2": "50.2",
+        "relationship": "ibgp"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "30.3",
+        "router_2": "50.1",
+        "relationship": "p2p"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "50.2"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "30.3"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "50.1"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "50.2"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "70"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "50.1"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "30.1",
+        "router_2": "31",
+        "relationship": "p2p"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "30.1",
+        "router_2": "30.3",
+        "relationship": "ibgp"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "30.1"
+    }
+}
+{
+    "time": 2,
+    "action": "LU",
+    "args": {
+        "router_1": "30.2",
+        "router_2": "30.3",
+        "relationship": "ibgp"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "31"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "30.1"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "30.3"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "30.2"
+    }
+}
+{
+    "time": 2,
+    "action": "CR",
+    "args": {
+        "router": "30.3"
+    }
+}
+{
+    "time": 3,
+    "action": "GA",
+    "args": {
+        "ap": "31",
+        "generator": "31",
+        "local_pref": 0,
+        "P": "A"
+    }
+}
+{
+    "time": 3,
+    "action": "GA",
+    "args": {
+        "ap": "40",
+        "generator": "40",
+        "local_pref": 0,
+        "P": "A"
+    }
+}
+{
+    "time": 3,
+    "action": "GA",
+    "args": {
+        "ap": "10",
+        "generator": "10",
+        "local_pref": 0,
+        "P": "A"
+    }
+}
+{
+    "time": 3,
+    "action": "CR",
+    "args": {
+        "router": "31"
+    }
+}
+{
+    "time": 3,
+    "action": "CR",
+    "args": {
+        "router": "40"
+    }
+}
+{
+    "time": 3,
+    "action": "CR",
+    "args": {
+        "router": "10"
+    }
+}
+{
+    "time": 4,
+    "action": "MRAIF",
+    "args": {
+        "s": "31",
+        "dest": "30.1",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2p",
+        "sender": "local",
+        "withraw": false
+    }
+}
+{
+    "time": 4,
+    "action": "MRAIF",
+    "args": {
+        "s": "40",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "c2p",
+        "sender": "local",
+        "withraw": false
+    }
+}
+{
+    "time": 4,
+    "action": "MRAIF",
+    "args": {
+        "s": "10",
+        "dest": "20",
+        "P": "A",
+        "AS_PATH": "10",
+        "relationship": "p2c",
+        "sender": "local",
+        "withraw": false
+    }
+}
+{
+    "time": 6,
+    "action": "SBR",
+    "args": {
+        "s": "31",
+        "nb": "30.1",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2p",
+        "sender": "local",
+        "withraw": false
+    }
+}
+{
+    "time": 6,
+    "action": "SBR",
+    "args": {
+        "s": "40",
+        "nb": "30.3",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "c2p",
+        "sender": "local",
+        "withraw": false
+    }
+}
+{
+    "time": 6,
+    "action": "SBR",
+    "args": {
+        "s": "10",
+        "nb": "20",
+        "P": "A",
+        "AS_PATH": "10",
+        "relationship": "p2c",
+        "sender": "local",
+        "withraw": false
+    }
+}
+{
+    "time": 7,
+    "action": "U",
+    "args": {
+        "s": "31",
+        "dest": "30.1",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2p"
+    }
+}
+{
+    "time": 7,
+    "action": "U",
+    "args": {
+        "s": "40",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 7,
+    "action": "U",
+    "args": {
+        "s": "10",
+        "dest": "20",
+        "P": "A",
+        "AS_PATH": "10",
+        "relationship": "p2c"
+    }
+}
+{
+    "time": 7,
+    "action": "CR",
+    "args": {
+        "router": "30.1"
+    }
+}
+{
+    "time": 7,
+    "action": "CR",
+    "args": {
+        "router": "30.3"
+    }
+}
+{
+    "time": 7,
+    "action": "CR",
+    "args": {
+        "router": "20"
+    }
+}
+{
+    "time": 8,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 8,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "30.1",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "ibgp",
+        "sender": "40",
+        "withraw": false
+    }
+}
+{
+    "time": 8,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "ibgp",
+        "sender": "40",
+        "withraw": false
+    }
+}
+{
+    "time": 8,
+    "action": "MRAIF",
+    "args": {
+        "s": "20",
+        "dest": "30.1",
+        "P": "A",
+        "AS_PATH": "10",
+        "relationship": "p2c",
+        "sender": "10",
+        "withraw": false
+    }
+}
+{
+    "time": 8,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "50.1",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "p2p",
+        "sender": "40",
+        "withraw": false
+    }
+}
+{
+    "time": 8,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 8,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "20",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "c2p",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 10,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "nb": "30.3",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 10,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "30.2",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "ibgp",
+        "sender": "40",
+        "withraw": false
+    }
+}
+{
+    "time": 10,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "nb": "30.2",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 10,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "nb": "20",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "c2p",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 10,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "30.1",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "ibgp",
+        "sender": "40",
+        "withraw": false
+    }
+}
+{
+    "time": 10,
+    "action": "RA",
+    "args": {
+        "router": "10",
+        "P": "A"
+    }
+}
+{
+    "time": 10,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "50.1",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "p2p",
+        "sender": "40",
+        "withraw": false
+    }
+}
+{
+    "time": 10,
+    "action": "SBR",
+    "args": {
+        "s": "20",
+        "nb": "30.1",
+        "P": "A",
+        "AS_PATH": "10",
+        "relationship": "p2c",
+        "sender": "10",
+        "withraw": false
+    }
+}
+{
+    "time": 10,
+    "action": "CR",
+    "args": {
+        "router": "10"
+    }
+}
+{
+    "time": 10,
+    "action": "MRAIF",
+    "args": {
+        "s": "10",
+        "dest": "20",
+        "AS_PATH": "10",
+        "P": "A",
+        "withraw": true
+    }
+}
+{
+    "time": 11,
+    "action": "U",
+    "args": {
+        "s": "30.1",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2p",
+        "local_pref": 110
+    }
+}
+{
+    "time": 11,
+    "action": "U",
+    "args": {
+        "s": "20",
+        "dest": "30.1",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "p2c"
+    }
+}
+{
+    "time": 11,
+    "action": "U",
+    "args": {
+        "s": "30.3",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "c2p",
+        "local_pref": 100
+    }
+}
+{
+    "time": 11,
+    "action": "SBR",
+    "args": {
+        "s": "10",
+        "P": "A",
+        "nb": "20",
+        "AS_PATH": "10",
+        "withraw": true
+    }
+}
+{
+    "time": 11,
+    "action": "CR",
+    "args": {
+        "router": "30.3"
+    }
+}
+{
+    "time": 11,
+    "action": "CR",
+    "args": {
+        "router": "30.1"
+    }
+}
+{
+    "time": 11,
+    "action": "CR",
+    "args": {
+        "router": "30.2"
+    }
+}
+{
+    "time": 11,
+    "action": "U",
+    "args": {
+        "s": "30.1",
+        "dest": "20",
+        "P": "A",
+        "AS_PATH": "30_31",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 11,
+    "action": "U",
+    "args": {
+        "s": "30.1",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2p",
+        "local_pref": 110
+    }
+}
+{
+    "time": 11,
+    "action": "U",
+    "args": {
+        "s": "30.3",
+        "dest": "30.1",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "c2p",
+        "local_pref": 100
+    }
+}
+{
+    "time": 11,
+    "action": "CR",
+    "args": {
+        "router": "20"
+    }
+}
+{
+    "time": 11,
+    "action": "CR",
+    "args": {
+        "router": "30.2"
+    }
+}
+{
+    "time": 11,
+    "action": "CR",
+    "args": {
+        "router": "30.1"
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "40",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2c",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "30.1",
+        "P": "A",
+        "AS_PATH": "40",
+        "withraw": true
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "31",
+        "withraw": true
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.2",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "c2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "31",
+        "withraw": true
+    }
+}
+{
+    "time": 12,
+    "action": "W",
+    "args": {
+        "s": "10",
+        "dest": "20",
+        "P": "A",
+        "AS_PATH": "10"
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "ibgp",
+        "sender": "20",
+        "withraw": false
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "31",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "p2p",
+        "sender": "20",
+        "withraw": false
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "ibgp",
+        "sender": "20",
+        "withraw": false
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "20",
+        "P": "A",
+        "AS_PATH": "31",
+        "withraw": true
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.2",
+        "dest": "30.1",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "ibgp",
+        "sender": "30.3",
+        "withraw": false
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "40",
+        "withraw": true
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "c2p",
+        "sender": "30.3",
+        "withraw": false
+    }
+}
+{
+    "time": 12,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "50.1",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 13,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "P": "A",
+        "nb": "30.1",
+        "AS_PATH": "40",
+        "withraw": true
+    }
+}
+{
+    "time": 13,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "P": "A",
+        "nb": "30.2",
+        "AS_PATH": "31",
+        "withraw": true
+    }
+}
+{
+    "time": 13,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "P": "A",
+        "nb": "30.3",
+        "AS_PATH": "31",
+        "withraw": true
+    }
+}
+{
+    "time": 13,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "P": "A",
+        "nb": "20",
+        "AS_PATH": "31",
+        "withraw": true
+    }
+}
+{
+    "time": 13,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "P": "A",
+        "nb": "30.2",
+        "AS_PATH": "40",
+        "withraw": true
+    }
+}
+{
+    "time": 14,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "40",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2c",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 14,
+    "action": "SBR",
+    "args": {
+        "s": "30.2",
+        "nb": "21",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "c2p",
+        "sender": "30.3",
+        "withraw": false
+    }
+}
+{
+    "time": 14,
+    "action": "W",
+    "args": {
+        "s": "30.3",
+        "dest": "30.1",
+        "P": "A",
+        "AS_PATH": "40"
+    }
+}
+{
+    "time": 14,
+    "action": "W",
+    "args": {
+        "s": "30.1",
+        "dest": "20",
+        "P": "A",
+        "AS_PATH": "31"
+    }
+}
+{
+    "time": 14,
+    "action": "W",
+    "args": {
+        "s": "30.3",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "40"
+    }
+}
+{
+    "time": 14,
+    "action": "SBR",
+    "args": {
+        "s": "30.2",
+        "nb": "30.3",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 14,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "50.1",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 14,
+    "action": "SBR",
+    "args": {
+        "s": "30.2",
+        "nb": "21",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "c2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 14,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "nb": "30.3",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "ibgp",
+        "sender": "20",
+        "withraw": false
+    }
+}
+{
+    "time": 14,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "nb": "30.2",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "ibgp",
+        "sender": "20",
+        "withraw": false
+    }
+}
+{
+    "time": 14,
+    "action": "W",
+    "args": {
+        "s": "30.1",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "31"
+    }
+}
+{
+    "time": 14,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "nb": "31",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "p2p",
+        "sender": "20",
+        "withraw": false
+    }
+}
+{
+    "time": 14,
+    "action": "SBR",
+    "args": {
+        "s": "30.2",
+        "nb": "30.1",
+        "P": "A",
+        "AS_PATH": "40",
+        "relationship": "ibgp",
+        "sender": "30.3",
+        "withraw": false
+    }
+}
+{
+    "time": 14,
+    "action": "W",
+    "args": {
+        "s": "30.1",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "31"
+    }
+}
+{
+    "time": 14,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "30.2",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 15,
+    "action": "U",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "30_40",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 15,
+    "action": "U",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "30_31",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 15,
+    "action": "U",
+    "args": {
+        "s": "30.1",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "p2c",
+        "local_pref": 120
+    }
+}
+{
+    "time": 15,
+    "action": "CR",
+    "args": {
+        "router": "21"
+    }
+}
+{
+    "time": 15,
+    "action": "CR",
+    "args": {
+        "router": "21"
+    }
+}
+{
+    "time": 15,
+    "action": "CR",
+    "args": {
+        "router": "30.3"
+    }
+}
+{
+    "time": 15,
+    "action": "U",
+    "args": {
+        "s": "30.1",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "p2c",
+        "local_pref": 120
+    }
+}
+{
+    "time": 15,
+    "action": "U",
+    "args": {
+        "s": "30.1",
+        "dest": "31",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "p2p"
+    }
+}
+{
+    "time": 15,
+    "action": "CR",
+    "args": {
+        "router": "30.2"
+    }
+}
+{
+    "time": 15,
+    "action": "CR",
+    "args": {
+        "router": "31"
+    }
+}
+{
+    "time": 16,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.2",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 16,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "31",
+        "withraw": true
+    }
+}
+{
+    "time": 16,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "50.1",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "p2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 16,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 16,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "c2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 16,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "40",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "p2c",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 17,
+    "action": "CR",
+    "args": {
+        "router": "20"
+    }
+}
+{
+    "time": 17,
+    "action": "SBR",
+    "args": {
+        "s": "30.2",
+        "P": "A",
+        "nb": "21",
+        "AS_PATH": "31",
+        "withraw": true
+    }
+}
+{
+    "time": 17,
+    "action": "MRAIF",
+    "args": {
+        "s": "20",
+        "dest": "30.1",
+        "AS_PATH": "10",
+        "P": "A",
+        "withraw": true
+    }
+}
+{
+    "time": 18,
+    "action": "SBR",
+    "args": {
+        "s": "30.2",
+        "nb": "21",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "c2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 18,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "40",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "p2c",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 18,
+    "action": "W",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "31"
+    }
+}
+{
+    "time": 18,
+    "action": "SBR",
+    "args": {
+        "s": "20",
+        "P": "A",
+        "nb": "30.1",
+        "AS_PATH": "10",
+        "withraw": true
+    }
+}
+{
+    "time": 18,
+    "action": "SBR",
+    "args": {
+        "s": "30.2",
+        "nb": "30.3",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 18,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "30.2",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 18,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "50.1",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "relationship": "p2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 19,
+    "action": "CR",
+    "args": {
+        "router": "20"
+    }
+}
+{
+    "time": 19,
+    "action": "U",
+    "args": {
+        "s": "30.3",
+        "dest": "40",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "p2c"
+    }
+}
+{
+    "time": 19,
+    "action": "U",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 19,
+    "action": "U",
+    "args": {
+        "s": "30.3",
+        "dest": "50.1",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "p2p"
+    }
+}
+{
+    "time": 19,
+    "action": "W",
+    "args": {
+        "s": "20",
+        "dest": "30.1",
+        "P": "A",
+        "AS_PATH": "10"
+    }
+}
+{
+    "time": 19,
+    "action": "CR",
+    "args": {
+        "router": "40"
+    }
+}
+{
+    "time": 19,
+    "action": "CR",
+    "args": {
+        "router": "21"
+    }
+}
+{
+    "time": 19,
+    "action": "CR",
+    "args": {
+        "router": "50.1"
+    }
+}
+{
+    "time": 19,
+    "action": "CR",
+    "args": {
+        "router": "30.2"
+    }
+}
+{
+    "time": 19,
+    "action": "CR",
+    "args": {
+        "router": "30.2"
+    }
+}
+{
+    "time": 19,
+    "action": "CR",
+    "args": {
+        "router": "30.1"
+    }
+}
+{
+    "time": 19,
+    "action": "CR",
+    "args": {
+        "router": "30.3"
+    }
+}
+{
+    "time": 20,
+    "action": "MRAIF",
+    "args": {
+        "s": "50.1",
+        "dest": "60",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "c2p",
+        "sender": "30.3",
+        "withraw": false
+    }
+}
+{
+    "time": 20,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 20,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "31",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 20,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "20",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "c2p",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 20,
+    "action": "MRAIF",
+    "args": {
+        "s": "50.1",
+        "dest": "50.2",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "ibgp",
+        "sender": "30.3",
+        "withraw": false
+    }
+}
+{
+    "time": 20,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 20,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 20,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.1",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 21,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "P": "A",
+        "nb": "31",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 21,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "P": "A",
+        "nb": "30.2",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 21,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "P": "A",
+        "nb": "30.3",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 22,
+    "action": "SBR",
+    "args": {
+        "s": "50.1",
+        "nb": "60",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "c2p",
+        "sender": "30.3",
+        "withraw": false
+    }
+}
+{
+    "time": 22,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "nb": "30.2",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 22,
+    "action": "W",
+    "args": {
+        "s": "30.1",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "20_10"
+    }
+}
+{
+    "time": 22,
+    "action": "W",
+    "args": {
+        "s": "30.1",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "20_10"
+    }
+}
+{
+    "time": 22,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "nb": "30.3",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 22,
+    "action": "W",
+    "args": {
+        "s": "30.1",
+        "dest": "31",
+        "P": "A",
+        "AS_PATH": "20_10"
+    }
+}
+{
+    "time": 22,
+    "action": "SBR",
+    "args": {
+        "s": "30.1",
+        "nb": "20",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "c2p",
+        "sender": "31",
+        "withraw": false
+    }
+}
+{
+    "time": 22,
+    "action": "SBR",
+    "args": {
+        "s": "50.1",
+        "nb": "50.2",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "ibgp",
+        "sender": "30.3",
+        "withraw": false
+    }
+}
+{
+    "time": 23,
+    "action": "U",
+    "args": {
+        "s": "50.1",
+        "dest": "60",
+        "P": "A",
+        "AS_PATH": "50_30_20_10",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 23,
+    "action": "U",
+    "args": {
+        "s": "30.1",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2p",
+        "local_pref": 110
+    }
+}
+{
+    "time": 23,
+    "action": "U",
+    "args": {
+        "s": "50.1",
+        "dest": "50.2",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "p2p",
+        "local_pref": 110
+    }
+}
+{
+    "time": 23,
+    "action": "CR",
+    "args": {
+        "router": "60"
+    }
+}
+{
+    "time": 23,
+    "action": "CR",
+    "args": {
+        "router": "30.2"
+    }
+}
+{
+    "time": 23,
+    "action": "CR",
+    "args": {
+        "router": "50.2"
+    }
+}
+{
+    "time": 23,
+    "action": "U",
+    "args": {
+        "s": "30.1",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2p",
+        "local_pref": 110
+    }
+}
+{
+    "time": 23,
+    "action": "U",
+    "args": {
+        "s": "30.1",
+        "dest": "20",
+        "P": "A",
+        "AS_PATH": "30_31",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 23,
+    "action": "CR",
+    "args": {
+        "router": "30.3"
+    }
+}
+{
+    "time": 23,
+    "action": "CR",
+    "args": {
+        "router": "20"
+    }
+}
+{
+    "time": 23,
+    "action": "CR",
+    "args": {
+        "router": "21"
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 24,
+    "action": "CR",
+    "args": {
+        "router": "30.1"
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "30.2",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "20",
+        "dest": "10",
+        "P": "A",
+        "AS_PATH": "30_31",
+        "relationship": "c2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "50.1",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "60",
+        "dest": "50.2",
+        "P": "A",
+        "AS_PATH": "50_30_20_10",
+        "relationship": "p2c",
+        "sender": "50.1",
+        "withraw": false
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "40",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2c",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "50.2",
+        "dest": "60",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "c2p",
+        "sender": "50.1",
+        "withraw": false
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.2",
+        "dest": "30.3",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "c2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "50.1",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "50.2",
+        "dest": "70",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "p2c",
+        "sender": "50.1",
+        "withraw": false
+    }
+}
+{
+    "time": 24,
+    "action": "MRAIF",
+    "args": {
+        "s": "30.3",
+        "dest": "40",
+        "P": "A",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 25,
+    "action": "SBR",
+    "args": {
+        "s": "30.2",
+        "P": "A",
+        "nb": "21",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 25,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "P": "A",
+        "nb": "50.1",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 25,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "P": "A",
+        "nb": "40",
+        "AS_PATH": "20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 26,
+    "action": "SBR",
+    "args": {
+        "s": "50.2",
+        "nb": "70",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "p2c",
+        "sender": "50.1",
+        "withraw": false
+    }
+}
+{
+    "time": 26,
+    "action": "W",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "20_10"
+    }
+}
+{
+    "time": 26,
+    "action": "W",
+    "args": {
+        "s": "30.3",
+        "dest": "50.1",
+        "P": "A",
+        "AS_PATH": "20_10"
+    }
+}
+{
+    "time": 26,
+    "action": "W",
+    "args": {
+        "s": "30.3",
+        "dest": "40",
+        "P": "A",
+        "AS_PATH": "20_10"
+    }
+}
+{
+    "time": 26,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "30.2",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 26,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "50.1",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 26,
+    "action": "SBR",
+    "args": {
+        "s": "20",
+        "nb": "10",
+        "P": "A",
+        "AS_PATH": "30_31",
+        "relationship": "c2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 26,
+    "action": "SBR",
+    "args": {
+        "s": "30.3",
+        "nb": "40",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "p2c",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 26,
+    "action": "SBR",
+    "args": {
+        "s": "50.2",
+        "nb": "60",
+        "P": "A",
+        "AS_PATH": "30_20_10",
+        "relationship": "c2p",
+        "sender": "50.1",
+        "withraw": false
+    }
+}
+{
+    "time": 26,
+    "action": "SBR",
+    "args": {
+        "s": "60",
+        "nb": "50.2",
+        "P": "A",
+        "AS_PATH": "50_30_20_10",
+        "relationship": "p2c",
+        "sender": "50.1",
+        "withraw": false
+    }
+}
+{
+    "time": 26,
+    "action": "SBR",
+    "args": {
+        "s": "30.2",
+        "nb": "30.3",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "ibgp",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 26,
+    "action": "SBR",
+    "args": {
+        "s": "30.2",
+        "nb": "21",
+        "P": "A",
+        "AS_PATH": "31",
+        "relationship": "c2p",
+        "sender": "30.1",
+        "withraw": false
+    }
+}
+{
+    "time": 27,
+    "action": "CR",
+    "args": {
+        "router": "30.2"
+    }
+}
+{
+    "time": 27,
+    "action": "U",
+    "args": {
+        "s": "20",
+        "dest": "10",
+        "P": "A",
+        "AS_PATH": "20_30_31",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 27,
+    "action": "U",
+    "args": {
+        "s": "50.2",
+        "dest": "60",
+        "P": "A",
+        "AS_PATH": "50_30_20_10",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 27,
+    "action": "U",
+    "args": {
+        "s": "30.2",
+        "dest": "21",
+        "P": "A",
+        "AS_PATH": "30_31",
+        "relationship": "c2p"
+    }
+}
+{
+    "time": 27,
+    "action": "CR",
+    "args": {
+        "router": "10"
+    }
+}
+{
+    "time": 27,
+    "action": "CR",
+    "args": {
+        "router": "60"
+    }
+}
+{
+    "time": 27,
+    "action": "CR",
+    "args": {
+        "router": "21"
+    }
+}
+{
+    "time": 27,
+    "action": "CR",
+    "args": {
+        "router": "31"
+    }
+}
+{
+    "time": 27,
+    "action": "CR",
+    "args": {
+        "router": "30.3"
+    }
+}
+{
+    "time": 31,
+    "action": "CR",
+    "args": {
+        "router": "21"
+    }
+}
+{
+    "time": 31,
+    "action": "CR",
+    "args": {
+        "router": "40"
+    }
+}
+{
+    "time": 31,
+    "action": "CR",
+    "args": {
+        "router": "50.1"
+    }
+}
+{
+    "time": 31,
+    "action": "MRAIF",
+    "args": {
+        "s": "50.1",
+        "dest": "60",
+        "AS_PATH": "30_20_10",
+        "P": "A",
+        "withraw": true
+    }
+}
+{
+    "time": 31,
+    "action": "MRAIF",
+    "args": {
+        "s": "50.1",
+        "dest": "50.2",
+        "AS_PATH": "30_20_10",
+        "P": "A",
+        "withraw": true
+    }
+}
+{
+    "time": 32,
+    "action": "SBR",
+    "args": {
+        "s": "50.1",
+        "P": "A",
+        "nb": "60",
+        "AS_PATH": "30_20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 32,
+    "action": "SBR",
+    "args": {
+        "s": "50.1",
+        "P": "A",
+        "nb": "50.2",
+        "AS_PATH": "30_20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 33,
+    "action": "W",
+    "args": {
+        "s": "50.1",
+        "dest": "60",
+        "P": "A",
+        "AS_PATH": "30_20_10"
+    }
+}
+{
+    "time": 33,
+    "action": "W",
+    "args": {
+        "s": "50.1",
+        "dest": "50.2",
+        "P": "A",
+        "AS_PATH": "30_20_10"
+    }
+}
+{
+    "time": 38,
+    "action": "CR",
+    "args": {
+        "router": "60"
+    }
+}
+{
+    "time": 38,
+    "action": "CR",
+    "args": {
+        "router": "50.2"
+    }
+}
+{
+    "time": 38,
+    "action": "MRAIF",
+    "args": {
+        "s": "50.2",
+        "dest": "60",
+        "AS_PATH": "30_20_10",
+        "P": "A",
+        "withraw": true
+    }
+}
+{
+    "time": 39,
+    "action": "SBR",
+    "args": {
+        "s": "50.2",
+        "P": "A",
+        "nb": "60",
+        "AS_PATH": "30_20_10",
+        "withraw": true
+    }
+}
+{
+    "time": 40,
+    "action": "W",
+    "args": {
+        "s": "50.2",
+        "dest": "60",
+        "P": "A",
+        "AS_PATH": "30_20_10"
+    }
+}
+{
+    "time": 45,
+    "action": "CR",
+    "args": {
+        "router": "60"
+    }
+}
+
+--------------------------DUMP ALL ROUTER INFORMATION----------------------
+ 
+ROUTER 10: 
+{
+    "links": {
+        "20": true
+    },
+    "relationship": {
+        "20": "c2p"
+    },
+    "local_pref": {
+        "20": 100
+    },
+    "rib": {
+        "A": {
+            "time": 27,
+            "AS_PATH": "20_30_31",
+            "relationship": "c2p",
+            "local_pref": 100,
+            "sender": "20"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "20": {
+            "A": {
+                "s": "20",
+                "dest": "10",
+                "P": "A",
+                "AS_PATH": "20_30_31",
+                "relationship": "c2p",
+                "time": 27,
+                "local_pref": 100
+            }
+        }
+    },
+    "sent_to": {
+        "A": {}
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 20: 
+{
+    "links": {
+        "30.1": true,
+        "10": true
+    },
+    "relationship": {
+        "30.1": "c2p",
+        "10": "p2c"
+    },
+    "local_pref": {
+        "30.1": 100,
+        "10": 120
+    },
+    "rib": {
+        "A": {
+            "time": 23,
+            "AS_PATH": "30_31",
+            "relationship": "c2p",
+            "local_pref": 100,
+            "sender": "30.1"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "30.1": {
+            "A": {
+                "s": "30.1",
+                "dest": "20",
+                "P": "A",
+                "AS_PATH": "30_31",
+                "relationship": "c2p",
+                "time": 23,
+                "local_pref": 100
+            }
+        },
+        "10": {}
+    },
+    "sent_to": {
+        "A": {
+            "30_31": [
+                "10"
+            ]
+        }
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 21: 
+{
+    "links": {
+        "30.2": true
+    },
+    "relationship": {
+        "30.2": "c2p"
+    },
+    "local_pref": {
+        "30.2": 100
+    },
+    "rib": {
+        "A": {
+            "time": 27,
+            "AS_PATH": "30_31",
+            "relationship": "c2p",
+            "local_pref": 100,
+            "sender": "30.2"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "30.2": {
+            "A": {
+                "s": "30.2",
+                "dest": "21",
+                "P": "A",
+                "AS_PATH": "30_31",
+                "relationship": "c2p",
+                "time": 27,
+                "local_pref": 100
+            }
+        }
+    },
+    "sent_to": {},
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 30.1: 
+{
+    "links": {
+        "20": true,
+        "30.2": true,
+        "31": true,
+        "30.3": true
+    },
+    "relationship": {
+        "20": "p2c",
+        "30.2": "ibgp",
+        "31": "p2p",
+        "30.3": "ibgp"
+    },
+    "local_pref": {
+        "20": 120,
+        "31": 110
+    },
+    "rib": {
+        "A": {
+            "time": 19,
+            "AS_PATH": "31",
+            "relationship": "p2p",
+            "local_pref": 110,
+            "sender": "31"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "20": {},
+        "30.2": {},
+        "31": {
+            "A": {
+                "s": "31",
+                "dest": "30.1",
+                "P": "A",
+                "AS_PATH": "31",
+                "relationship": "p2p",
+                "time": 7,
+                "local_pref": 110
+            }
+        },
+        "30.3": {}
+    },
+    "sent_to": {
+        "A": {
+            "31": [
+                "30.2",
+                "30.3",
+                "20"
+            ]
+        }
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 30.2: 
+{
+    "links": {
+        "30.1": true,
+        "21": true,
+        "30.3": true
+    },
+    "relationship": {
+        "30.1": "ibgp",
+        "21": "p2c",
+        "30.3": "ibgp"
+    },
+    "local_pref": {
+        "21": 120
+    },
+    "rib": {
+        "A": {
+            "time": 23,
+            "AS_PATH": "31",
+            "relationship": "p2p",
+            "local_pref": 110,
+            "sender": "30.1"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "30.1": {
+            "A": {
+                "s": "30.1",
+                "dest": "30.2",
+                "P": "A",
+                "AS_PATH": "31",
+                "relationship": "p2p",
+                "local_pref": 110,
+                "time": 23
+            }
+        },
+        "21": {},
+        "30.3": {}
+    },
+    "sent_to": {
+        "A": {
+            "31": [
+                "21"
+            ]
+        }
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 30.3: 
+{
+    "links": {
+        "40": true,
+        "50.1": true,
+        "30.1": true,
+        "30.2": true
+    },
+    "relationship": {
+        "40": "c2p",
+        "50.1": "p2p",
+        "30.1": "ibgp",
+        "30.2": "ibgp"
+    },
+    "local_pref": {
+        "40": 100,
+        "50.1": 110
+    },
+    "rib": {
+        "A": {
+            "time": 23,
+            "AS_PATH": "31",
+            "relationship": "p2p",
+            "local_pref": 110,
+            "sender": "30.1"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "40": {
+            "A": {
+                "s": "40",
+                "dest": "30.3",
+                "P": "A",
+                "AS_PATH": "40",
+                "relationship": "c2p",
+                "time": 7,
+                "local_pref": 100
+            }
+        },
+        "50.1": {},
+        "30.1": {
+            "A": {
+                "s": "30.1",
+                "dest": "30.3",
+                "P": "A",
+                "AS_PATH": "31",
+                "relationship": "p2p",
+                "local_pref": 110,
+                "time": 23
+            }
+        },
+        "30.2": {}
+    },
+    "sent_to": {
+        "A": {}
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 31: 
+{
+    "links": {
+        "30.1": true
+    },
+    "relationship": {
+        "30.1": "p2p"
+    },
+    "local_pref": {
+        "30.1": 110
+    },
+    "rib": {
+        "A": {
+            "time": 3
+        }
+    },
+    "local_rib": {
+        "A": {
+            "time": 3,
+            "relationship": "",
+            "local_pref": 0,
+            "AS_PATH": ""
+        }
+    },
+    "rib_in": {
+        "30.1": {}
+    },
+    "sent_to": {
+        "A": {
+            "31": [
+                "30.1"
+            ]
+        }
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 40: 
+{
+    "links": {
+        "30.3": true
+    },
+    "relationship": {
+        "30.3": "p2c"
+    },
+    "local_pref": {
+        "30.3": 120
+    },
+    "rib": {
+        "A": {
+            "time": 3
+        }
+    },
+    "local_rib": {
+        "A": {
+            "time": 3,
+            "relationship": "",
+            "local_pref": 0,
+            "AS_PATH": ""
+        }
+    },
+    "rib_in": {
+        "30.3": {}
+    },
+    "sent_to": {
+        "A": {
+            "40": [
+                "30.3"
+            ]
+        }
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 50.1: 
+{
+    "links": {
+        "60": true,
+        "50.2": true,
+        "30.3": true
+    },
+    "relationship": {
+        "60": "p2c",
+        "50.2": "ibgp",
+        "30.3": "p2p"
+    },
+    "local_pref": {
+        "60": 120,
+        "30.3": 110
+    },
+    "rib": {},
+    "local_rib": {},
+    "rib_in": {
+        "60": {},
+        "50.2": {},
+        "30.3": {}
+    },
+    "sent_to": {
+        "A": {}
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 50.2: 
+{
+    "links": {
+        "60": true,
+        "70": true,
+        "50.1": true
+    },
+    "relationship": {
+        "60": "p2c",
+        "70": "c2p",
+        "50.1": "ibgp"
+    },
+    "local_pref": {
+        "60": 120,
+        "70": 100
+    },
+    "rib": {},
+    "local_rib": {},
+    "rib_in": {
+        "60": {},
+        "70": {},
+        "50.1": {}
+    },
+    "sent_to": {
+        "A": {}
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 60: 
+{
+    "links": {
+        "50.1": true,
+        "50.2": true
+    },
+    "relationship": {
+        "50.1": "c2p",
+        "50.2": "c2p"
+    },
+    "local_pref": {
+        "50.1": 100,
+        "50.2": 100
+    },
+    "rib": {},
+    "local_rib": {},
+    "rib_in": {
+        "50.1": {},
+        "50.2": {}
+    },
+    "sent_to": {},
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 70: 
+{
+    "links": {
+        "50.2": true
+    },
+    "relationship": {
+        "50.2": "p2c"
+    },
+    "local_pref": {
+        "50.2": 120
+    },
+    "rib": {},
+    "local_rib": {},
+    "rib_in": {
+        "50.2": {}
+    },
+    "sent_to": {},
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+--------------------------END OF ALL ROUTER INFORMATION----------------------
+

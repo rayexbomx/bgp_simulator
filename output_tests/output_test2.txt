@@ -1,0 +1,502 @@
+
+--------------------------DUMP ALL ROUTER INFORMATION----------------------
+ 
+ROUTER 10: 
+{
+    "links": {
+        "20": true
+    },
+    "relationship": {
+        "20": "c2p"
+    },
+    "local_pref": {
+        "20": 100
+    },
+    "rib": {
+        "A": {
+            "time": 19,
+            "AS_PATH": "20_30_40",
+            "relationship": "c2p",
+            "local_pref": 100,
+            "sender": "20"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "20": {
+            "A": {
+                "s": "20",
+                "dest": "10",
+                "P": "A",
+                "AS_PATH": "20_30_40",
+                "relationship": "c2p",
+                "time": 19,
+                "local_pref": 100
+            }
+        }
+    },
+    "sent_to": {},
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 20: 
+{
+    "links": {
+        "30.1": true,
+        "10": true
+    },
+    "relationship": {
+        "30.1": "c2p",
+        "10": "p2c"
+    },
+    "local_pref": {
+        "30.1": 100,
+        "10": 120
+    },
+    "rib": {
+        "A": {
+            "time": 15,
+            "AS_PATH": "30_40",
+            "relationship": "c2p",
+            "local_pref": 100,
+            "sender": "30.1"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "30.1": {
+            "A": {
+                "s": "30.1",
+                "dest": "20",
+                "P": "A",
+                "AS_PATH": "30_40",
+                "relationship": "c2p",
+                "time": 15,
+                "local_pref": 100
+            }
+        },
+        "10": {}
+    },
+    "sent_to": {
+        "A": {
+            "30_40": [
+                "10"
+            ]
+        }
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 21: 
+{
+    "links": {
+        "30.2": true
+    },
+    "relationship": {
+        "30.2": "c2p"
+    },
+    "local_pref": {
+        "30.2": 100
+    },
+    "rib": {
+        "A": {
+            "time": 15,
+            "AS_PATH": "30_40",
+            "relationship": "c2p",
+            "local_pref": 100,
+            "sender": "30.2"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "30.2": {
+            "A": {
+                "s": "30.2",
+                "dest": "21",
+                "P": "A",
+                "AS_PATH": "30_40",
+                "relationship": "c2p",
+                "time": 15,
+                "local_pref": 100
+            }
+        }
+    },
+    "sent_to": {},
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 30.1: 
+{
+    "links": {
+        "20": true,
+        "30.2": true,
+        "31": true,
+        "30.3": true
+    },
+    "relationship": {
+        "20": "p2c",
+        "30.2": "ibgp",
+        "31": "p2p",
+        "30.3": "ibgp"
+    },
+    "local_pref": {
+        "20": 120,
+        "31": 110
+    },
+    "rib": {
+        "A": {
+            "time": 11,
+            "AS_PATH": "40",
+            "relationship": "c2p",
+            "local_pref": 100,
+            "sender": "30.3"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "20": {},
+        "30.2": {},
+        "31": {},
+        "30.3": {
+            "A": {
+                "s": "30.3",
+                "dest": "30.1",
+                "P": "A",
+                "AS_PATH": "40",
+                "relationship": "c2p",
+                "local_pref": 100,
+                "time": 11
+            }
+        }
+    },
+    "sent_to": {
+        "A": {
+            "40": [
+                "20"
+            ]
+        }
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 30.2: 
+{
+    "links": {
+        "21": true,
+        "30.1": true,
+        "30.3": true
+    },
+    "relationship": {
+        "21": "p2c",
+        "30.1": "ibgp",
+        "30.3": "ibgp"
+    },
+    "local_pref": {
+        "21": 120
+    },
+    "rib": {
+        "A": {
+            "time": 11,
+            "AS_PATH": "40",
+            "relationship": "c2p",
+            "local_pref": 100,
+            "sender": "30.3"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "21": {},
+        "30.1": {},
+        "30.3": {
+            "A": {
+                "s": "30.3",
+                "dest": "30.2",
+                "P": "A",
+                "AS_PATH": "40",
+                "relationship": "c2p",
+                "local_pref": 100,
+                "time": 11
+            }
+        }
+    },
+    "sent_to": {
+        "A": {
+            "40": [
+                "21"
+            ]
+        }
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 30.3: 
+{
+    "links": {
+        "40": true,
+        "30.1": true,
+        "30.2": true,
+        "50.1": true
+    },
+    "relationship": {
+        "40": "c2p",
+        "30.1": "ibgp",
+        "30.2": "ibgp",
+        "50.1": "p2p"
+    },
+    "local_pref": {
+        "40": 100,
+        "50.1": 110
+    },
+    "rib": {
+        "A": {
+            "time": 7,
+            "AS_PATH": "40",
+            "relationship": "c2p",
+            "local_pref": 100,
+            "sender": "40"
+        }
+    },
+    "local_rib": {},
+    "rib_in": {
+        "40": {
+            "A": {
+                "s": "40",
+                "dest": "30.3",
+                "P": "A",
+                "AS_PATH": "40",
+                "relationship": "c2p",
+                "time": 7,
+                "local_pref": 100
+            }
+        },
+        "30.1": {},
+        "30.2": {},
+        "50.1": {}
+    },
+    "sent_to": {
+        "A": {
+            "40": [
+                "30.1",
+                "30.2"
+            ]
+        }
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 31: 
+{
+    "links": {
+        "30.1": true
+    },
+    "relationship": {
+        "30.1": "p2p"
+    },
+    "local_pref": {
+        "30.1": 110
+    },
+    "rib": {},
+    "local_rib": {},
+    "rib_in": {
+        "30.1": {}
+    },
+    "sent_to": {},
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 40: 
+{
+    "links": {
+        "30.3": true
+    },
+    "relationship": {
+        "30.3": "p2c"
+    },
+    "local_pref": {
+        "30.3": 120
+    },
+    "rib": {
+        "A": {
+            "time": 3
+        }
+    },
+    "local_rib": {
+        "A": {
+            "time": 3,
+            "relationship": "",
+            "local_pref": "",
+            "AS_PATH": ""
+        }
+    },
+    "rib_in": {
+        "30.3": {}
+    },
+    "sent_to": {
+        "A": {
+            "40": [
+                "30.3"
+            ]
+        }
+    },
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 50.1: 
+{
+    "links": {
+        "60": true,
+        "50.2": true,
+        "30.3": true
+    },
+    "relationship": {
+        "60": "p2c",
+        "50.2": "ibgp",
+        "30.3": "p2p"
+    },
+    "local_pref": {
+        "60": 120,
+        "30.3": 110
+    },
+    "rib": {},
+    "local_rib": {},
+    "rib_in": {
+        "60": {},
+        "50.2": {},
+        "30.3": {}
+    },
+    "sent_to": {},
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 50.2: 
+{
+    "links": {
+        "70": true,
+        "60": true,
+        "50.1": true
+    },
+    "relationship": {
+        "70": "c2p",
+        "60": "p2c",
+        "50.1": "ibgp"
+    },
+    "local_pref": {
+        "70": 100,
+        "60": 120
+    },
+    "rib": {},
+    "local_rib": {},
+    "rib_in": {
+        "70": {},
+        "60": {},
+        "50.1": {}
+    },
+    "sent_to": {},
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 60: 
+{
+    "links": {
+        "50.1": true,
+        "50.2": true
+    },
+    "relationship": {
+        "50.1": "c2p",
+        "50.2": "c2p"
+    },
+    "local_pref": {
+        "50.1": 100,
+        "50.2": 100
+    },
+    "rib": {},
+    "local_rib": {},
+    "rib_in": {
+        "50.1": {},
+        "50.2": {}
+    },
+    "sent_to": {},
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+ 
+ROUTER 70: 
+{
+    "links": {
+        "50.2": true
+    },
+    "relationship": {
+        "50.2": "p2c"
+    },
+    "local_pref": {
+        "50.2": 120
+    },
+    "rib": {},
+    "local_rib": {},
+    "rib_in": {
+        "50.2": {}
+    },
+    "sent_to": {},
+    "MRAI": {
+        "configuration": {},
+        "per_session": {},
+        "per_prefix": {}
+    },
+    "routerDown": false
+}
+--------------------------END OF ALL ROUTER INFORMATION----------------------
+
